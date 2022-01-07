@@ -58,6 +58,8 @@ int main(void)
 }
 */
 
+// 프로그램을 입력, 최댓값 계산, 출력 등의 세 부분으로 나눔.
+
 #include <stdio.h>
 
 int GetData(void)
