@@ -11,6 +11,8 @@ int main(void)
 
 	memcpy(szNewBuffer, szBuffer, 6);
 	puts(szNewBuffer);
+
+	// 원본 메모리 전체를 대상 메모리로 복사 
 	memcpy(szNewBuffer, szBuffer, sizeof(szBuffer));
 	puts(szNewBuffer);
 
